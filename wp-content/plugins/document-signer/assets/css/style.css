@@ -1,0 +1,88 @@
+/* Admin Styles */
+.document-upload-section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+    background: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.email-inputs {
+    margin: 15px 0;
+}
+
+.email-inputs input {
+    width: 100%;
+    margin: 5px 0;
+}
+
+/* Signature Page Styles */
+.document-signing-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.registration-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.document-content {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.signature-section {
+    margin-top: 30px;
+}
+
+#signature-pad {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    height: 200px;
+    background: #fff;
+}
+
+.signature-controls {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 90%;
+        margin: 20% auto;
+    }
+    
+    .document-signing-page {
+        padding: 10px;
+    }
+}
